@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 1000;
     padding: 1000;
     background-color: #ffffff;
@@ -41,7 +41,11 @@ nav ul li a:hover {
 nav ul li a {
     color: #002fff;
 }
-
+.ulasan{
+    /* list-style-type: none; */
+    text-decoration: none;
+    color: black;
+}
 .profile-container {
     padding: 20px;
     display: flex;

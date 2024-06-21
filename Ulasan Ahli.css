@@ -46,6 +46,14 @@ nav ul li a:hover {
 nav ul li a {
     color: #002fff;
 }
+.barang{
+    font-weight: bold;
+    margin-left: 1%;
+    color: blue;
+}
+.isi{
+    margin-left: 8%;
+}
 .profile-container {
     padding: 20px;
     display: flex;
