@@ -49,10 +49,14 @@ nav ul li a {
 .barang{
     font-weight: bold;
     margin-left: 1%;
-    color: blue;
+    color: rgb(0, 0, 0);
 }
 .isi{
-    margin-left: 8%;
+    margin-left: 15%;
+}
+.Kemajuan{
+    color: blue;
+    margin-left: 15%;
 }
 .profile-container {
     padding: 20px;
