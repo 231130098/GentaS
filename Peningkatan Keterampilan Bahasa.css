@@ -1,0 +1,151 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header, nav, main, section, article, footer {
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #ffffff;
+    padding: 20px 20px;
+}
+
+nav ul {
+    background-color: #00274D;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    padding: 16px 30px;
+}
+
+nav ul li {
+    margin-right: 30px;
+}
+
+nav ul li.logo {
+    margin-right: auto;
+    margin-left: 190px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #ff07d6;
+}
+
+nav ul li a {
+    color: #ffffff;
+}
+section.video-section {
+    text-align: center;
+}
+section.video-section img {
+    width: 97%;
+    height: 100;
+}.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 60%;
+    max-width: 800px;
+    justify-content: center;
+    margin-left: 300px;
+}
+.title {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.nav-container {
+    display: flex;
+    margin-bottom: 20px;
+}
+.nav-container p {
+    margin: 0 20px 0 0;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+}
+.nav-container .active {
+    border-bottom: 2px solid #007bff;
+    color: #007bff;
+}
+.section-header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding-bottom: 5px;
+}
+.section-header1{
+    border-bottom: 2px solid #007bff;
+    color: #007bff;
+    font-size: 16px;
+    margin: 0;
+    justify-content: center;
+    text-align: center;
+}
+.section-header2{
+    font-size: 16px;
+    margin: 0;
+    justify-content: center;
+    text-align: center;
+}
+.sort {
+    color: #007bff;
+    font-size: 14px;
+}
+.question, .comment {
+    margin-top: 15px;
+    padding-top: 10px;
+    display: flex;
+}
+.comment {
+    margin-left: 40px;
+}
+.profile-pic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.username {
+    font-weight: bold;
+    margin-right: 5px;
+}
+.timestamp {
+    color: #999;
+    font-size: 12px;
+    margin-right: 1px;
+}
+.text {
+    margin: 0;
+}
+
+.kanan {
+    text-align: right;
+    margin-right: 14%;
+    margin-bottom: -2.2%;
+}
+.kiri{
+    text-align: right;
+    color: #007bff;
+}
+.SELANJUTNYA{
+    background-color: #fff;
+    padding: 3px;
+    width: 60%;
+    max-width: 800px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-right: 0px;
+    margin-left: 550px;
+    color: #007bff;
+}
